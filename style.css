@@ -95,7 +95,6 @@ body {
 }
 #tablefont1 {
   font-family: 'Arial','Rubik';
-  /* font-weight:900 ; */
   width: 800px !important;
   background-color: #FFFBF0;
   color: #5D7B6F;
@@ -417,13 +416,9 @@ body {
   width: 100%;
   margin-bottom: 75px;
   background-color: #a4c3a2;
-  /* background-image:url(music/USUK/USUK/Afterlastnight.jpg) ; */
+  
   
 }
-
-/* .backg{
-  background-color: #e8e4dc;
-} */
 
 .buttoniconic {
   display: flex;
@@ -636,9 +631,9 @@ article {
   background-color: rgba(95, 95, 95, 0.5);
   border-radius: 10px;
   background-image: url('MuonDiXemPhaoHoa/UsUk.jpg'); 
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -661,13 +656,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+ 
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/Feel_Good.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/Feel_Good.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
   overflow: hidden !important;
   position: relative;
 }
@@ -676,13 +671,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+ 
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('avatar.png'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('avatar.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -691,13 +686,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/Summer_Vibes.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/Summer_Vibes.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -706,13 +701,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/Sunflower_Vibes.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/Sunflower_Vibes.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -721,13 +716,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/ocean.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/ocean.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -736,13 +731,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/Kpop.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/Kpop.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden !important;
   position: relative;
 }
@@ -751,13 +746,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/Anxious.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/Anxious.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -766,13 +761,13 @@ article {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  /* background-color: #A4C3A2; */
+  
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  background-image: url('MuonDiXemPhaoHoa/UsUk.jpg'); /* Đường dẫn đến ảnh nền */
-  background-size: cover; /* Đảm bảo ảnh nền bao phủ toàn bộ div */
-  background-position: center; /* Đặt vị trí ảnh nền ở giữa div */
-  background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+  background-image: url('MuonDiXemPhaoHoa/UsUk.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
   overflow: hidden !important;
   position: relative;
 }
@@ -783,23 +778,23 @@ article {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(36, 36, 36, 0.6); /* Màu và độ mờ của lớp phủ */
-  z-index: 1; /* Đảm bảo lớp phủ nằm trên ảnh nền nhưng dưới nội dung */
+  background-color: rgba(36, 36, 36, 0.6); 
+  z-index: 1;
   pointer-events: none;
 }
 .picincell{
   position: relative;
-  z-index: 2; /* Đảm bảo nội dung nằm trên lớp phủ */
+  z-index: 2; 
 
 }
 .functioncard{
   position: relative;
-  z-index: 2; /* Đảm bảo nội dung nằm trên lớp phủ */
+  z-index: 2;
 }
 
 header{
   position: relative;
-  z-index: 2; /* Đảm bảo nội dung nằm trên lớp phủ */
+  z-index: 2; 
 }
 
 .picincell {
@@ -854,7 +849,7 @@ header{
 
 .loaloaloa {
   color: #b6edd6;
-  /* margin-top: 45%; */
+  
   display: flex;
 }
 
@@ -896,35 +891,29 @@ header{
 
 }
 
-/* .fa-shuffle.fa-circle-play.fa-music{
-  transition: text-shadow 0.3s ease;
-}
-.fa-shuffle.fa-circle-play.fa-music:hover{
-  text-shadow: 0 0 4px white, 0 0 4px white;
-} */
 
 .banutchucnang i {
   transition: text-shadow 0.3s ease;
-  /* Thêm hiệu ứng chuyển đổi cho các biểu tượng */
+ 
 }
 
 .banutchucnang i:hover {
   text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-  /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+ 
 }
 
 .buttoniconic i {
   transition: text-shadow 0.3s ease;
-  /* Thêm hiệu ứng chuyển đổi cho các biểu tượng */
+  
 }
 
 .buttoniconic i:hover {
   text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-  /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+ 
 }
 .fix i:hover {
   text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-  /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+ 
 }
 
 .title12 {
@@ -1040,9 +1029,7 @@ header{
 
   height: 100%;
   width: 100%;
-  /* background-color: #B0D4B8;  */
 
-  /* height: 30px; */
   margin-left: -10%;
 }
 
@@ -1078,7 +1065,7 @@ header{
 
 .comment:hover {
   text-shadow: 0 0 10px #0b3d91, 0 0 10px #0b3d91;
-  /* cursor: pointer; */
+ 
 }
 
 .boxchatscreen {
@@ -1103,7 +1090,7 @@ padding-top: 7px;
   background-color: #dcd8c3 !important;
   width: 100%;
   padding: 0;
-  /* border-bottom:; */
+ 
   height: 11.5%;
   display: grid;
   grid-template-columns: 16% 70% 10%;
@@ -1155,16 +1142,15 @@ padding-top: 7px;
 
 .dropdown-content {
   right: 0;
-  /* margin-top: 2.65%; */
-  /* margin-top: -30%; */
+ 
   display: none;
-  /* Ẩn danh sách bạn bè ban đầu */
+ 
   position: absolute;
-  /* background-color: #B0D4B8;  */
+  
   height: 92%;
   
   width: 38.5%;
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  
   z-index: 1;
 
 }
@@ -1174,11 +1160,10 @@ padding-top: 7px;
   right: 0;
   height: 100%;
   position: absolute;
-  /* top: -17px !important; */
-  /* margin-top: -333px; */
+ 
   float: right;
   width: 45.1%;
-  /* position: fixed; */
+  
   height: 100%;
   padding-right: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);

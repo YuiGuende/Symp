@@ -68,7 +68,7 @@ slider.oninput = () => {
   }
 
   function heart() {
-    const element0 = document.getElementById("hearticon");  // Get the DIV element
+    const element0 = document.getElementById("hearticon"); 
     if (element0.classList.contains("fa-regular")) {
       element0.classList.remove("fa-regular");
       element0.classList.add("fa-solid");
@@ -79,7 +79,7 @@ slider.oninput = () => {
   }
   
   function heart1() {
-    const element1 = document.getElementById("hearticon1");  // Get the DIV element
+    const element1 = document.getElementById("hearticon1"); 
     if (element1.classList.contains("fa-regular")) {
       element1.classList.remove("fa-regular");
       element1.classList.add("fa-solid");
@@ -90,7 +90,7 @@ slider.oninput = () => {
   }
   
   function heart2() {
-    const element2 = document.getElementById("hearticon2");  // Get the DIV element
+    const element2 = document.getElementById("hearticon2"); 
     if (element2.classList.contains("fa-regular")) {
       element2.classList.remove("fa-regular");
       element2.classList.add("fa-solid");
@@ -101,7 +101,7 @@ slider.oninput = () => {
   }
   
   function heart3() {
-    const element3 = document.getElementById("hearticon3");  // Get the DIV element
+    const element3 = document.getElementById("hearticon3"); 
     if (element3.classList.contains("fa-regular")) {
       element3.classList.remove("fa-regular");
       element3.classList.add("fa-solid");
@@ -112,7 +112,7 @@ slider.oninput = () => {
   }
   
   function heart4() {
-    const element4 = document.getElementById("hearticon4");  // Get the DIV element
+    const element4 = document.getElementById("hearticon4"); 
     if (element4.classList.contains("fa-regular")) {
       element4.classList.remove("fa-regular");
       element4.classList.add("fa-solid");
@@ -123,7 +123,7 @@ slider.oninput = () => {
   }
   
   function heart5() {
-    const element5 = document.getElementById("hearticon5");  // Get the DIV element
+    const element5 = document.getElementById("hearticon5"); 
     if (element5.classList.contains("fa-regular")) {
       element5.classList.remove("fa-regular");
       element5.classList.add("fa-solid");
@@ -134,7 +134,7 @@ slider.oninput = () => {
   }
   
   function heart6() {
-    const element6 = document.getElementById("hearticon6");  // Get the DIV element
+    const element6 = document.getElementById("hearticon6");  
     if (element6.classList.contains("fa-regular")) {
       element6.classList.remove("fa-regular");
       element6.classList.add("fa-solid");
@@ -143,21 +143,6 @@ slider.oninput = () => {
       element6.classList.add("fa-regular");
     }
   }
-
-  // function song4_1() {
-  //   var song = document.getElementById('song');
-  //   var sourceMp3 = document.getElementById('song');
-  //   sourceMp3.src ='music/chilling/Bai_Nay_Chill_Phet_434_Den_Vau.mp3';
-  //   document.getElementById('Namesong').innerText='Bài Này Chill Phết';
-  //   ddocument.getElementById('author').innerText='Đen Vâu';
-  //   if (ctrlIcon.classList.contains("fa-circle-play")) {
-  //     ctrlIcon.classList.remove("fa-circle-play");
-  //     ctrlIcon.classList.add("fa-circle-pause");
-  //     }
-  //   song.load();
-  //   song.play();
-  // }
-
 
   function song4_2() {
     var song = document.getElementById('song');
@@ -243,14 +228,14 @@ slider.oninput = () => {
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
   
-    // While there remain elements to shuffle...
+    
     while (0 !== currentIndex) {
   
-      // Pick a remaining element...
+     
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
   
-      // And swap it with the current element.
+     
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -258,8 +243,6 @@ slider.oninput = () => {
     }
     return array;
   }
-  // function
-
   function shuffle2() {
     shuffle(rancount);
     document.getElementById('iconmusic').setAttribute('style','text-shadow: 0 0 20px #034128');

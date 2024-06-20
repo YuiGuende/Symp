@@ -9,7 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="test.css">
     <script src="func.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.theme.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/75736e9502.js" crossorigin="anonymous"></script>
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
@@ -372,6 +376,14 @@
     <script src="script.js"></script>
     <script src="func.js"></script>
     <script>
+        $(function () {
+        var availableTags = [
+            "@NTTDuy", "Thi", "Nam", "Kim", "Lan", "Thu"
+        ];
+        $("#myinput2").autocomplete({
+            source: availableTags
+        });
+    });
         $(".carousel").owlCarousel({
             margin: 5,
             loop: true,

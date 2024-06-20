@@ -8,7 +8,7 @@
     padding: 10px;
     padding-left: 5px;
     padding-right: 20px;
-    /* display: grid; */
+   
     display: inline-flex;
     overflow: hidden;
     grid-template-columns: 31% 31% 31%;
@@ -18,27 +18,6 @@
     background-color: #4c655b;
     width: 100%;
 }
-/* 
-.owl-dots {
-    text-align: center;
-    margin-top: 40px;
-} */
-
-/* .owl-dot {
-    height: 15px;
-    width: 45px;
-    margin: 0 5px;
-    outline: none;
-    border-radius: 14px;
-    border: 2px solid #0072bc !important;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-} */
-
-/* .owl-dot.active,
-.owl-dot:hover {
-    background: #0072bc !important;
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -735,11 +714,11 @@ article {
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/UsUk.jpg');
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+   
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+   
     overflow: hidden !important;
     position: relative;
 }
@@ -766,17 +745,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+  
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/Feel_Good.jpg');
-    /* Đường dẫn đến ảnh nền */
+   
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+   
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+  
     overflow: hidden !important;
     position: relative;
 }
@@ -786,17 +765,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+   
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('avatar.png');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -806,17 +785,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+    
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/Summer_Vibes.jpg');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -826,17 +805,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+    
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/Sunflower_Vibes.jpg');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+   
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -846,17 +825,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+    
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/ocean.jpg');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+   
     overflow: hidden !important;
     position: relative;
 }
@@ -866,17 +845,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+   
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/Kpop.jpg');
-    /* Đường dẫn đến ảnh nền */
+   
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -886,17 +865,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+    
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/Anxious.jpg');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -906,17 +885,17 @@ article {
     padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    /* background-color: #A4C3A2; */
+    
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: url('MuonDiXemPhaoHoa/UsUk.jpg');
-    /* Đường dẫn đến ảnh nền */
+    
     background-size: cover;
-    /* Đảm bảo ảnh nền bao phủ toàn bộ div */
+    
     background-position: center;
-    /* Đặt vị trí ảnh nền ở giữa div */
+    
     background-repeat: no-repeat;
-    /* Không lặp lại ảnh nền */
+    
     overflow: hidden !important;
     position: relative;
 }
@@ -928,16 +907,16 @@ article {
     width: 100%;
     height: 100%;
     background-color: rgba(36, 36, 36, 0.6);
-    /* Màu và độ mờ của lớp phủ !!!!!!!!!!!!!!!*/
+    
     z-index: 1;
-    /* Đảm bảo lớp phủ nằm trên ảnh nền nhưng dưới nội dung */
+    
     pointer-events:none;
 }
 
 .picincell {
     position: relative;
     z-index: 2;
-    /* Đảm bảo nội dung nằm trên lớp phủ */
+   
 
 }
 
@@ -945,13 +924,13 @@ article {
 .functioncard {
     position: relative;
     z-index: 2;
-    /* Đảm bảo nội dung nằm trên lớp phủ */
+    
 }
 
 header {
     position: relative;
     z-index: 2;
-    /* Đảm bảo nội dung nằm trên lớp phủ */
+   
 }
 
 .picincell {
@@ -963,11 +942,6 @@ header {
 
 }
 
-/* .tym {
-    color: #b6edd6;
-    display: flex;
-    flex-direction: row-reverse;
-} */
 
 .usuk {
     height: 35%;
@@ -991,19 +965,6 @@ header {
     right: 20px;
     flex-direction:row-reverse;
   }
-  /* .usuk{
-    height: 25%;
-    display: flex;
-    position: absolute;
-    top: 20px;
-    font-family: 'rubik';
-    right: 50px;
-    color: #5D7B6F;
-    justify-content: center;
-    font-weight: 400;
-    vertical-align: middle;
-    font-size: 190%;
-  } */
 
 .functioncard {
     padding-right: 3%;
@@ -1017,15 +978,7 @@ header {
     z-index: 2;
 }
 
-/* .banutchucnang {
-    color: #b6edd6;
-    margin-top: 30%;
-    display: flex;
-    justify-content: space-between;
-    vertical-align: middle;
-    justify-items: center;
-    margin-bottom: 25%;
-} */
+
 .banutchucnang{
     color: #b6edd6;
     margin-top: 15%;
@@ -1041,7 +994,7 @@ header {
 
 .loaloaloa {
     color: #b6edd6;
-    /* margin-top: 45%; */
+   
     display: flex;
 }
 
@@ -1085,36 +1038,31 @@ header {
 
 }
 
-/* .fa-shuffle.fa-circle-play.fa-music{
-  transition: text-shadow 0.3s ease;
-}
-.fa-shuffle.fa-circle-play.fa-music:hover{
-  text-shadow: 0 0 4px white, 0 0 4px white;
-} */
+
 
 .banutchucnang i {
     transition: text-shadow 0.3s ease;
-    /* Thêm hiệu ứng chuyển đổi cho các biểu tượng */
+    
 }
 
 .banutchucnang i:hover {
     text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-    /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+    
 }
 
 .buttoniconic i {
     transition: text-shadow 0.3s ease;
-    /* Thêm hiệu ứng chuyển đổi cho các biểu tượng */
+    
 }
 
 .buttoniconic i:hover {
     text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-    /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+   
 }
 
 .fix i:hover {
     text-shadow: 0 0 10px #FFECB3, 0 0 10px #FFECB3;
-    /* Tạo hiệu ứng viền trắng khi trỏ chuột vào biểu tượng */
+   
 }
 
 .title12 {
@@ -1230,9 +1178,7 @@ header {
 
     height: 100%;
     width: 100%;
-    /* background-color: #B0D4B8;  */
-
-    /* height: 30px; */
+   
     margin-left: -10%;
 }
 
@@ -1269,7 +1215,7 @@ header {
 
 .comment:hover {
     text-shadow: 0 0 10px #0b3d91, 0 0 10px #0b3d91;
-    /* cursor: pointer; */
+    
 }
 
 .boxchatscreen {
@@ -1295,7 +1241,7 @@ header {
     background-color: #dcd8c3 !important;
     width: 100%;
     padding: 0;
-    /* border-bottom:; */
+    
     height: 11.5%;
     display: grid;
     grid-template-columns: 16% 70% 10%;
@@ -1354,16 +1300,15 @@ header {
 
 .dropdown-content {
     right: 0;
-    /* margin-top: 2.65%; */
-    /* margin-top: -30%; */
+   
     display: none;
-    /* Ẩn danh sách bạn bè ban đầu */
+   
     position: absolute;
-    /* background-color: #B0D4B8;  */
+    
     height: 92%;
 
     width: 38.5%;
-    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    
     z-index: 3;
 
 }
@@ -1373,22 +1318,17 @@ header {
     right: 0;
     height: 100%;
     position: absolute;
-    /* top: -17px !important; */
-    /* margin-top: -333px; */
+  
     float: right;
     width: 45.1%;
-    /* position: fixed; */
+    
     height: 100%;
     padding-right: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
+
 .owl-carousel,
 .owl-carousel .owl-item {
     

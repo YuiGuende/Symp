@@ -178,7 +178,7 @@ function song1_6() {
 
 
 function heart() {
-  const element0 = document.getElementById("hearticon");  // Get the DIV element
+  const element0 = document.getElementById("hearticon");  
   if (element0.classList.contains("fa-regular")) {
     element0.classList.remove("fa-regular");
     element0.classList.add("fa-solid");
@@ -189,7 +189,7 @@ function heart() {
 }
 
 function heart1() {
-  const element1 = document.getElementById("hearticon1");  // Get the DIV element
+  const element1 = document.getElementById("hearticon1");  
   if (element1.classList.contains("fa-regular")) {
     element1.classList.remove("fa-regular");
     element1.classList.add("fa-solid");
@@ -200,7 +200,7 @@ function heart1() {
 }
 
 function heart2() {
-  const element2 = document.getElementById("hearticon2");  // Get the DIV element
+  const element2 = document.getElementById("hearticon2");  
   if (element2.classList.contains("fa-regular")) {
     element2.classList.remove("fa-regular");
     element2.classList.add("fa-solid");
@@ -211,7 +211,7 @@ function heart2() {
 }
 
 function heart3() {
-  const element3 = document.getElementById("hearticon3");  // Get the DIV element
+  const element3 = document.getElementById("hearticon3");  
   if (element3.classList.contains("fa-regular")) {
     element3.classList.remove("fa-regular");
     element3.classList.add("fa-solid");
@@ -222,7 +222,7 @@ function heart3() {
 }
 
 function heart4() {
-  const element4 = document.getElementById("hearticon4");  // Get the DIV element
+  const element4 = document.getElementById("hearticon4"); 
   if (element4.classList.contains("fa-regular")) {
     element4.classList.remove("fa-regular");
     element4.classList.add("fa-solid");
@@ -233,7 +233,7 @@ function heart4() {
 }
 
 function heart5() {
-  const element5 = document.getElementById("hearticon5");  // Get the DIV element
+  const element5 = document.getElementById("hearticon5");  
   if (element5.classList.contains("fa-regular")) {
     element5.classList.remove("fa-regular");
     element5.classList.add("fa-solid");
@@ -244,7 +244,7 @@ function heart5() {
 }
 
 function heart6() {
-  const element6 = document.getElementById("hearticon6");  // Get the DIV element
+  const element6 = document.getElementById("hearticon6");  
   if (element6.classList.contains("fa-regular")) {
     element6.classList.remove("fa-regular");
     element6.classList.add("fa-solid");
@@ -256,15 +256,9 @@ function heart6() {
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
   while (0 !== currentIndex){
-
-    // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
-
-    // And swap it with the current element.
     temporaryValue = array[currentIndex];
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
@@ -364,18 +358,6 @@ function addf(){
     addfriend.innerText='Add friend';
   }
 }
-
-// $("body").click
-// (
-//   function(e)
-//   {
-//     if(e.target.className !== "right")
-//     {
-//       document.getElementById('friendsList').setAttribute('style','display: none;');
-//     }
-//   }
-// );
-
 function redirect2() {
   myinput2.addEventListener("keyup", function (e) {
     if (e.code === "Enter") {
