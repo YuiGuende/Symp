@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.3/jquery-ui.theme.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/5a6c35552d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/75736e9502.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet" />
+    <title>Symp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="metquatroi" style="background-color:rgba(33,37,41,255)">
+        <a class="logo" href="index.html"><img src="avatarriel2.png" alt="logo"></a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="profiletest.html">Profile</a></li>
+                <li class="dropdown">
+                    <a href="#" id="friendsButton" class="dropbtn">Friends</a>
+                </li>
+                <li> <div class="autocomplete ui-widget">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <label for="myinput2"></label>
+                    <input onkeyup="redirect2()" id="myinput2" placeholder="Search for user...">
+                </input>
+                </div>
+            </li>
+            </ul>
+        </nav>
+        <a class="cta" href="login.html"><button>Login</button></a>
+    </header>
+    <div id="friendsList" class="dropdown-content">
+        <div class="chat-container">
+        </div>
+        <div class="right">
+            <a class="banbe1 online">
+
+                <div onclick="openprofile()"><img src="Avatarlist/FB_IMG_1673868013845.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Yui</div>
+                    <div class="status">In Summer Vibes</div>
+                </div>
+                <div class="comment"><i onclick="openChat('Yui','Summer Vibes','Avatarlist/FB_IMG_1673868013845.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="Avatarlist/IMG_20230115_143126_792.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Huu Phong</div>
+                    <div class="status">In Melancholy Vibes</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('Huu Phong','Melancholy Vibes','Avatarlist/IMG_20230115_143126_792.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="Avatarlist/received_150484111222341.jpeg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Dii</div>
+                    <div class="status">In Anxious Vibes</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('Dii','Anxious Vibes','Avatarlist/received_150484111222341.jpeg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img
+                        src="Avatarlist/Screenshot_2023-03-14-06-50-55-24_a23b203fd3aafc6dcb84e438dda678b6.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Thy Thy</div>
+                    <div class="status">In Summer Vibes</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('Thy Thy','Summer Vibes','Avatarlist/Screenshot_2023-03-14-06-50-55-24_a23b203fd3aafc6dcb84e438dda678b6.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="Avatarlist/nhuy.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Ngọc Nhii</div>
+                    <div class="status">In Sunflower Vibes</div>
+                </div>
+                <div class="comment"><i onclick="openChat('Ngọc Nhii','Sunflower Vibes','Avatarlist/nhuy.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="Avatarlist/received_512107394328040.jpeg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">T.Minh Triếtt</div>
+                    <div class="status">In Kpop List</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('T.Minh Triếtt','Kpop List','Avatarlist/received_512107394328040.jpeg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="MuonDiXemPhaoHoa/Avatar.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Quốc Bảo</div>
+                    <div class="status">In Old UK song</div>
+                </div>
+                <div class="comment"><i onclick="openChat('Quốc Bảo','Old UK song','MuonDiXemPhaoHoa/Avatar.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img
+                        src="Avatarlist/Screenshot_2023-03-18-11-46-51-38_a23b203fd3aafc6dcb84e438dda678b6.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Suzzy Q</div>
+                    <div class="status">In Love Vibes</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('Suzzy Q','Love Vibes','Avatarlist/Screenshot_2023-03-18-11-46-51-38_a23b203fd3aafc6dcb84e438dda678b6.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="Avatarlist/tosusu.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Tô Su Su</div>
+                    <div class="status">In Summer Vibes</div>
+                </div>
+                <div class="comment"><i onclick="openChat('Tô Su Su','Summer Vibes','Avatarlist/tosusu.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+            <a class="banbe1 online">
+                <div onclick="openprofile()"><img src="MuonDiXemPhaoHoa/FB_IMG_1698574218933.jpg"></div>
+                <div onclick="openprofile()" class="ac2">
+                    <div class="banbe">Hà Phương</div>
+                    <div class="status">In Vietnamese Pop</div>
+                </div>
+                <div class="comment"><i
+                        onclick="openChat('Hà Phương','Vietnamese Pop','MuonDiXemPhaoHoa/FB_IMG_1698574218933.jpg')"
+                        class="fa-regular fa-comments fa-xl"></i></div>
+            </a>
+        </div>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Peace.mp4" type="video/mp4">
+    </video>
+    <div class="title1">
+        <div class="centered-text">
+            <h4 class="canyou" style="color: rgb(0, 0, 0);"> Can you tell me</h4>
+            <h1>How do you</h1>
+            <h1>feel right now?</h1>
+        </div>
+    </div>
+    <div class="title12 autocomplete ui-widget">
+        <label for="myInput"></label>
+        <input onkeyup="redirect()" id="myInput" placeholder="type here...">
+    </div>
+    <script src="script.js"></script>
+    <script src="func.js"></script>
+</body>
+<script>
+    $(function () {
+        var availableTags = [
+            "sad", "happy", "love", "chill", "abroading", "amusement"
+        ];
+        $("#myInput").autocomplete({
+            source: availableTags
+        });
+    });
+    
+    $(function () {
+        var availableTags = [
+            "@NTTDuy", "Thi", "Nam", "Kim", "Lan", "Thu"
+        ];
+        $("#myinput2").autocomplete({
+            source: availableTags
+        });
+    });
+</script>
+
+</html>

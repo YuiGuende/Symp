@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Playlist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="j"></script>
+    <script src="https://kit.fontawesome.com/5a6c35552d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/75736e9502.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet" />
+</head>
+<!-- rgba(33,37,41,255) -->
+
+
+<header class="metquatroi" style="background-color:rgba(33,37,41,255)">
+    <a class="logo" href="index.html"><img src="avatarriel2.png" alt="logo"></a>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="profiletest.html">Profile</a></li>
+            <li class="dropdown">
+                <a href="#" id="friendsButton" class="dropbtn">Friends</a>
+            </li>
+            <li>
+                <div class="autocomplete ui-widget">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <label for="myinput2"></label>
+                    <input onkeyup="redirect2()" id="myinput2" placeholder="Search for user...">
+                    </input>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <a class="cta" href="login.html"><button>Login</button></a>
+</header>
+<div id="friendsList" class="dropdown-content">
+    <div class="chat-container">
+    </div>
+    <div class="right">
+        <a class="banbe1 online">
+
+            <div onclick="openprofile()"><img src="Avatarlist/FB_IMG_1673868013845.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Yui</div>
+                <div class="status">In Summer Vibes</div>
+            </div>
+            <div class="comment"><i onclick="openChat('Yui','Summer Vibes','Avatarlist/FB_IMG_1673868013845.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="Avatarlist/IMG_20230115_143126_792.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Huu Phong</div>
+                <div class="status">In Melancholy Vibes</div>
+            </div>
+            <div class="comment"><i
+                    onclick="openChat('Huu Phong','Melancholy Vibes','Avatarlist/IMG_20230115_143126_792.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="Avatarlist/received_150484111222341.jpeg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Dii</div>
+                <div class="status">In Anxious Vibes</div>
+            </div>
+            <div class="comment"><i onclick="openChat('Dii','Anxious Vibes','Avatarlist/received_150484111222341.jpeg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img
+                    src="Avatarlist/Screenshot_2023-03-14-06-50-55-24_a23b203fd3aafc6dcb84e438dda678b6.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Thy Thy</div>
+                <div class="status">In Summer Vibes</div>
+            </div>
+            <div class="comment"><i
+                    onclick="openChat('Thy Thy','Summer Vibes','Avatarlist/Screenshot_2023-03-14-06-50-55-24_a23b203fd3aafc6dcb84e438dda678b6.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="Avatarlist/nhuy.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Ngọc Nhii</div>
+                <div class="status">In Sunflower Vibes</div>
+            </div>
+            <div class="comment"><i onclick="openChat('Ngọc Nhii','Sunflower Vibes','Avatarlist/nhuy.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="Avatarlist/received_512107394328040.jpeg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">T.Minh Triếtt</div>
+                <div class="status">In Kpop List</div>
+            </div>
+            <div class="comment"><i
+                    onclick="openChat('T.Minh Triếtt','Kpop List','Avatarlist/received_512107394328040.jpeg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="MuonDiXemPhaoHoa/Avatar.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Quốc Bảo</div>
+                <div class="status">In Old UK song</div>
+            </div>
+            <div class="comment"><i onclick="openChat('Quốc Bảo','Old UK song','MuonDiXemPhaoHoa/Avatar.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img
+                    src="Avatarlist/Screenshot_2023-03-18-11-46-51-38_a23b203fd3aafc6dcb84e438dda678b6.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Suzzy Q</div>
+                <div class="status">In Love Vibes</div>
+            </div>
+            <div class="comment"><i
+                    onclick="openChat('Suzzy Q','Love Vibes','Avatarlist/Screenshot_2023-03-18-11-46-51-38_a23b203fd3aafc6dcb84e438dda678b6.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="Avatarlist/tosusu.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Tô Su Su</div>
+                <div class="status">In Summer Vibes</div>
+            </div>
+            <div class="comment"><i onclick="openChat('Tô Su Su','Summer Vibes','Avatarlist/tosusu.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+        <a class="banbe1 online">
+            <div onclick="openprofile()"><img src="MuonDiXemPhaoHoa/FB_IMG_1698574218933.jpg"></div>
+            <div onclick="openprofile()" class="ac2">
+                <div class="banbe">Hà Phương</div>
+                <div class="status">In Vietnamese Pop</div>
+            </div>
+            <div class="comment"><i
+                    onclick="openChat('Hà Phương','Vietnamese Pop','MuonDiXemPhaoHoa/FB_IMG_1698574218933.jpg')"
+                    class="fa-regular fa-comments fa-xl"></i></div>
+        </a>
+    </div>
+</div>
+
+<body style="background-color:#FFFBF0 !important;">
+    <div>
+        <div class="playlistinline">
+            <div class="playlist-container">
+                <div>
+                    <p class="idauthor1">Playlist</p>
+                </div>
+                <div>
+                    <h1 class="titleplaylist"> Summer Vibes</h1>
+                </div>
+                <div>
+                    <p class="idauthor2">Tag: Abroading</p>
+                </div>
+                <div class="volume" class="volumn_setting">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" class="slider" id="slider" value="0" maxlength="100" id="volume">
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="edsheran">
+                    <p id="author">Bruno Mars</p>
+
+                </div>
+                <hr style="color: #5D7B6F;">
+                <div class="names">
+                    <h1 id="Namesong" class="Namesong">After last night</h1>
+                </div>
+                <audio id="song" onended="playNextSong()" style="display: none;">
+                    <source src='music/USUK/USUK/After_last_night.mp3' id type="audio/mp3">
+                </audio>
+                <div>
+                    <input type="range" value="0" id="progress">
+                </div>
+                <div class="function">
+                    <div class="btn"><i onclick="heart()" id="hearticon" class="fa-regular fa-heart fa-2xl"></i></div>
+                    <div onclick="backward()" class="btn"><i class="fa-solid fa-backward-step fa-2xl"></i></div>
+                    <div onclick="playpause()" class="btn"><i class="fa-solid fa-circle-play fa-4x" id="ctrlIcon"></i>
+                    </div>
+                    <div onclick="playNextSong()" class="btn"><i class="fa-solid fa-forward-step fa-2xl"></i></div>
+                    <div class="btn"><i class="fa-solid fa-ellipsis-vertical fa-2xl"></i></div>
+                </div>
+
+            </div>
+            <div class="boder">
+                <img class="avatar" src="music/USUK/USUK/Afterlastnight.jpg">
+                </img>
+            </div>
+        </div>
+    </div>
+    <hr class="unde" style="color: #5D7B6F;">
+    <div class="backg">
+        <div class="buttonico">
+            <div class="buttoniconic">
+                <div class="btn"><i onclick="playsong()" class="fa-solid fa-circle-play fa-3x"
+                        style="color: #4D645B;"></i>
+                </div>
+                <div class="btn"><i onclick="playNextSong()" class="fa-solid fa-forward-step fa-3x"
+                        style="color: #4D645B;"></i></div>
+                <div class="btn"><i class="fa-solid fa-repeat fa-3x" style="color: #4D645B;"></i></div>
+                <div class="btn"><i onclick="shuffle2()" class="fa-solid fa-shuffle fa-3x" style="color: #4D645B;"></i>
+                </div>
+                <div class="btn"><i class="fa-solid fa-ellipsis-vertical fa-3x" style="color: #4D645B; "></i></div>
+            </div>
+            <div><i class="fa-solid fa-share-nodes fa-3x" style="color: #4D645B; "></i></div>
+        </div>
+
+
+
+
+
+        <div>
+            <div>
+                <table class="table table-hover  table-borderless">
+
+
+
+                    <tbody>
+
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_1()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>After last night</h3>
+                                <pr>Bruno Mars</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart1()" id="hearticon1" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_2()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>Confident</h3>
+                                <pr>Justin Bieber</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart2()" id="hearticon2" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_3()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>Get You</h3>
+                                <pr>Daniel Caesar</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart3()" id="hearticon3" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_4()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>Kiss Me More</h3>
+                                <pr>Doja Cat</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart4()" id="hearticon4" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_5()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>Streets</h3>
+                                <pr>Doja Cat</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart5()" id="hearticon5" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                        <tr>
+                            <td class="fix">
+                                <div class="square" style="background-color:#5D7B6F">
+                                    <div onclick="song1_6()"><i class="fa-regular fa-circle-play fa-xl"
+                                            style="color: #FFFBF0;"></i></div>
+                                </div>
+                            </td>
+
+                            <td id="tablefont1">
+                                <h3>Unforgettable</h3>
+                                <pr>Swae Lee</prs>
+                            </td>
+                            <td id="tablefont2"> <i onclick="heart6()" id="hearticon6" class="fa-regular fa-heart"></i>
+                            </td>
+                            <td id="tablefont3"> None</td>
+                            <td id="tablefont4"> 0:0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+<script src="func.js"></script>
+<script>
+    $(function () {
+        var availableTags = [
+            "sad", "happy", "love", "chill", "abroading", "amusement"
+        ];
+        $("#myInput").autocomplete({
+            source: availableTags
+        });
+    });
+    
+    $(function () {
+        var availableTags = [
+            "@NTTDuy", "Thi", "Nam", "Kim", "Lan", "Thu"
+        ];
+        $("#myinput2").autocomplete({
+            source: availableTags
+        });
+    });
+</script>
+</html>
